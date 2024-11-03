@@ -11,17 +11,17 @@
 
 - The solutions include both API and web application.
 
-- In my day to day work, I practised Pivotal’s ways of working which includes Pair Programming and Test Driven Development.
+- In my day-to-day work, I practised Pivotal’s ways of working which includes Pair Programming and Test Driven Development.
 
 - I received formal training at Pivotal Labs in Sydney in 2018.
 
 - The technology stacks that I am using daily includes:
-  - AWS API Gateway, Lambda, DynamoDB, SQS, and CloudWatch (aka. serverless)
+  - AWS API Gateway, Lambda, DynamoDB, SQS, and CloudWatch (aka. serverless stack)
   - AWS CloudFormation and CDK
-  - AWS AppSync
   - VueJS
-  - GitLab
-  - JavaScript and NodeJS
+  - GitLab CI/CD
+  - JavaScript and Node.js
+  - Playwright
 
 ### Past
 
@@ -40,8 +40,7 @@
 
 Senior Engineer (October 2021 - Present)
 
-- Building Azupay's PayID and PayTo payment solutions. 
-  - PayTo is a new, digital way for merchants and businesses to initiate real-time payments.
+- Building PayID and PayTo payment solutions.
 
 ### [Service NSW](https://service.nsw.gov.au)
 
@@ -61,22 +60,36 @@ Senior Engineer (December 2018 - August 2020)
 
 Software Developer (January 2008 - November 2018)
 
-- Software developer of SaaS solutions for the automotive industry.
+- Building SaaS solutions for the automotive industry.
 
 ### Abacus International (now part of [Sabre Corporation](https://sabre.com))
 
 Software Developer (August 2002 - June 2005)
 
-- GDS (Global Distribution Systems) software developer. Developing solutions for travel-related services and airline ticketing.
+- GDS (Global Distribution Systems) software developer.
+
+- Building solutions for travel-related services and airline ticketing.
 
 ### [Innovax Systems Pte Ltd](https://innovax.systems)
 
 Software Developer (March 1999 - May 2002)
 
-- Contact Centre Solutions developer. Developing IVR (Interactive Voice Response) solutions, PABX (Private Automatic Branch Exchange), VoIP, and CRM (Customer Relationship Management).
+- Contact Centre Solutions developer. 
+
+- Developing IVR (Interactive Voice Response) solutions, PABX (Private Automatic Branch Exchange), VoIP, and CRM (Customer Relationship Management).
 
 ## Education
 
 ### University of New South Wales
 
 Master's degree, Computing and Information Technology (2005 - 2007)
+
+## Certifications
+
+### AWS Certified Developer – Associate (2022)
+
+- [Badge](https://www.credly.com/badges/f8223cd3-0012-44ab-83c6-d7283c5685e0)
+
+### Oracle Certified Associate, Java SE 8 Programmer (2017)
+
+- [Badge](https://www.credly.com/badges/f6a859ee-1974-40fa-b03f-0065332eaa77)
