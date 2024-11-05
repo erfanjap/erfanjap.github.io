@@ -11,4 +11,5 @@ export default defineConfig({
             {text: 'Skills', link: '/skills'}
         ],
     },
+    base: '/resume/'
 })
