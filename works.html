@@ -13,16 +13,16 @@
 
 <body>
 <main>
-    <h1 id="erfan-jap-works">Erfan Jap - Works</h1>
+    <h1 id="erfan-jap---works">Erfan Jap - Works</h1>
     <h2 id="2024">2024</h2>
     <h3 id="batch-processing-system-for-aba-file-format">Batch processing system for ABA file format</h3>
-    <p>Design and development of batch processing system for ABA file format.</p>
+    <p>Design and development of a batch processing system for ABA files.</p>
     <p>ABA (Australian Bankers Association) file format is a universal format used by banks in Australia to allow for
         batch transactions.</p>
-    <p>The batch processing system will send the payments in near real time using the NPP (<a
+    <p>The system will facilitate near-real-time payments via the NPP (<a
             href="https://www.rba.gov.au/payments-and-infrastructure/new-payments-platform/">New Payments Platform</a>)
-        if the recipient&#39;s banking details (BSB and Account or PayID) is NPP-reachable with fallback to <a
-                href="https://www.auspaynet.com.au/resources/direct-entry">Direct Entry</a> system.</p>
+        or, if unavailable, through the <a href="https://www.auspaynet.com.au/resources/direct-entry">Direct Entry</a>
+        system.</p>
     <h4 id="tech-stack">Tech stack</h4>
     <ul>
         <li>Batch processing system
@@ -46,9 +46,9 @@
         </li>
     </ul>
     <h3 id="checkout-app">Checkout app</h3>
-    <p>Development of Checkout application that allow user to make payment to products or services.</p>
-    <p>The payments is processed via <a href="https://payto.com.au">PayTo</a> infrastructure. </p>
-    <h4 id="tech-stack">Tech stack</h4>
+    <p>Developed a Checkout application enabling users to make payments for products or services.</p>
+    <p>Payments are processed through the <a href="https://payto.com.au">PayTo</a> infrastructure.</p>
+    <h4 id="tech-stack-1">Tech stack</h4>
     <ul>
         <li>Frontend
             <ul>
@@ -81,11 +81,12 @@
     <ul>
         <li>Webpack to vite</li>
         <li>Jest to vitest</li>
+        <li>WebdriverIO to Playwright</li>
     </ul>
     <h3 id="cloudwatch-metric-dashboard-and-alarm">CloudWatch Metric, Dashboard, and Alarm</h3>
     <p>Automate the creation of CloudWatch dashboards and alarms to monitor application health and performance.</p>
     <p>As part of the project, also automate the creation of CloudWatch custom metrics.</p>
-    <h4 id="tech-stack">Tech stack</h4>
+    <h4 id="tech-stack-2">Tech stack</h4>
     <ul>
         <li>AWS CloudWatch</li>
         <li>AWS CloudFormation</li>
@@ -98,7 +99,7 @@
         <li>User management</li>
         <li>Service management</li>
     </ul>
-    <h4 id="tech-stack">Tech stack</h4>
+    <h4 id="tech-stack-3">Tech stack</h4>
     <ul>
         <li>Vue.js</li>
         <li>WebdriverIO</li>
@@ -106,27 +107,31 @@
         <li>AWS Api Gateway, Lambda, DynamoDB</li>
         <li>GitLab CI/CD</li>
     </ul>
+    <h3 id="continuous-improvement-to-payto-api">Continuous improvement to PayTo API</h3>
     <h2 id="2022">2022</h2>
     <h3 id="payto-api">PayTo API</h3>
     <p>Design and development of PayTo API.</p>
     <p>The API includes capabilities to:</p>
     <ul>
-        <li>Create mandate/agreement</li>
-        <li>Amend mandate/agreement</li>
-        <li>Cancel mandate/agreement</li>
-        <li>Initiate payment</li>
+        <li>Create PayTo agreement</li>
+        <li>Amend agreement</li>
+        <li>Cancel agreement</li>
+        <li>Initiate payment for PayTo agreement</li>
     </ul>
-    <h4 id="tech-stack">Tech stack</h4>
+    <h4 id="tech-stack-4">Tech stack</h4>
     <ul>
-        <li>AWS API Gateway, Lambda, DynamoDB, SQS</li>
+        <li>AWS API Gateway, Lambda, DynamoDB, SQS (AWS Serverless stack)</li>
         <li>AWS CloudFormation</li>
         <li>GitLab CI/CD</li>
     </ul>
-    <h3 id="automate-web-application-user-migration">Automate web application user migration</h3>
+    <h3 id="automate-user-migration-when-user-log-in">Automate user migration when user log-in</h3>
     <ul>
-        <li>Automate migration of user account to a new Cognito user pool</li>
+        <li><p>Automate migration of user accounts to a new Cognito user pool.</p>
+        </li>
+        <li><p>This is achieved by utilising Lambda triggers attached to Cognito user pool.</p>
+        </li>
     </ul>
-    <h4 id="tech-stack">Tech stack</h4>
+    <h4 id="tech-stack-5">Tech stack</h4>
     <ul>
         <li>AWS Cognito</li>
         <li>AWS Lambda</li>

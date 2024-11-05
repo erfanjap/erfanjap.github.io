@@ -4,11 +4,11 @@
 
 ### Batch processing system for ABA file format
 
-Design and development of batch processing system for ABA file format.
+Design and development of a batch processing system for ABA files.
 
 ABA (Australian Bankers Association) file format is a universal format used by banks in Australia to allow for batch transactions.
 
-The batch processing system will send the payments in near real time using the NPP ([New Payments Platform](https://www.rba.gov.au/payments-and-infrastructure/new-payments-platform/)) if the recipient's banking details (BSB and Account or PayID) is NPP-reachable with fallback to [Direct Entry](https://www.auspaynet.com.au/resources/direct-entry) system.
+The system will facilitate near-real-time payments via the NPP ([New Payments Platform](https://www.rba.gov.au/payments-and-infrastructure/new-payments-platform/)) or, if unavailable, through the [Direct Entry](https://www.auspaynet.com.au/resources/direct-entry) system.
 
 #### Tech stack
 
@@ -25,9 +25,9 @@ The batch processing system will send the payments in near real time using the N
 
 ### Checkout app 
 
-Development of Checkout application that allow user to make payment to products or services.
+Developed a Checkout application enabling users to make payments for products or services.
 
-The payments is processed via [PayTo](https://payto.com.au) infrastructure. 
+Payments are processed through the [PayTo](https://payto.com.au) infrastructure.
 
 #### Tech stack
 
@@ -52,6 +52,7 @@ As part of the migration, also migrating the following:
 
 - Webpack to vite
 - Jest to vitest
+- WebdriverIO to Playwright
 
 ### CloudWatch Metric, Dashboard, and Alarm
 
@@ -81,6 +82,8 @@ Development of new features for user dashboard. New features includes:
 - AWS Api Gateway, Lambda, DynamoDB
 - GitLab CI/CD
 
+### Continuous improvement to PayTo API
+
 ## 2022
 
 ### PayTo API
@@ -88,20 +91,22 @@ Development of new features for user dashboard. New features includes:
 Design and development of PayTo API.
 
 The API includes capabilities to:
-  - Create mandate/agreement
-  - Amend mandate/agreement
-  - Cancel mandate/agreement
-  - Initiate payment
+  - Create PayTo agreement
+  - Amend agreement
+  - Cancel agreement
+  - Initiate payment for PayTo agreement
 
 #### Tech stack
 
-- AWS API Gateway, Lambda, DynamoDB, SQS
+- AWS API Gateway, Lambda, DynamoDB, SQS (AWS Serverless stack)
 - AWS CloudFormation
 - GitLab CI/CD
 
-### Automate web application user migration
+### Automate user migration when user log-in
 
-- Automate migration of user account to a new Cognito user pool
+- Automate migration of user accounts to a new Cognito user pool.
+
+- This is achieved by utilising Lambda triggers attached to Cognito user pool.
 
 #### Tech stack
 
