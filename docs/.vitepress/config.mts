@@ -11,4 +11,7 @@ export default defineConfig({
             {text: 'Skills', link: '/skills'}
         ],
     },
+    appearance: {
+        initialValue: 'light'
+    }
 })
