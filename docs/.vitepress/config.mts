@@ -13,5 +13,19 @@ export default defineConfig({
     },
     appearance: {
         initialValue: 'light'
-    }
+    },
+    head: [
+        [
+            'script',
+            {async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-RBG2R583G0'}
+        ],
+        [
+            'script',
+            {},
+            `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RBG2R583G0');`
+        ]
+    ]
 })
