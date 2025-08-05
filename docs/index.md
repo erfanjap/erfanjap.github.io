@@ -14,20 +14,22 @@ head:
 
 ### Current
 
-- In my current role, I am building payment solutions on New Payment Platform, which is Australia's national fast payments infrastructure.
+- In my current role, I am building payment solutions on New Payment Platform, which is Australia's national fast 
+payments' infrastructure.
 
 - The solutions include both API and web application.
 
-- In my day-to-day work, I practised Pivotal’s ways of working which includes Pair Programming and Test Driven Development.
+- In my day-to-day work, I practised Pivotal’s ways of working, which include Pair Programming and Test Driven 
+Development.
 
 - I received formal training at Pivotal Labs in Sydney in 2018.
 
-- The technology stacks that I am using daily includes:
+- The technology stacks that I am using daily include:
     - AWS API Gateway, Lambda, DynamoDB, SQS, and CloudWatch (AWS Serverless stack)
     - AWS CloudFormation and CDK
     - VueJS
     - GitLab CI/CD
-    - JavaScript and Node.js
+    - JavaScript, TypeScript, and Node.js
     - Playwright
 
 ### Past
@@ -45,13 +47,13 @@ head:
 
 ### [Azupay](https://azupay.com.au)
 
-Senior Engineer (October 2021 - Present)
+Senior Engineer (October 2021 to Present)
 
 - Building PayID and PayTo payment solutions.
 
 ### [Service NSW](https://service.nsw.gov.au)
 
-Principal Engineer (August 2020 - October 2021)
+Principal Engineer (August 2020 to October 2021)
 
 - Working on Service New South Wales's Digital Notifications portfolios.
 
@@ -65,13 +67,13 @@ Senior Engineer (December 2018 - August 2020)
 
 ### [Infomedia Ltd](https://infomedia.com.au)
 
-Software Developer (January 2008 - November 2018)
+Software Developer (January 2008 to November 2018)
 
 - Building SaaS solutions for the automotive industry.
 
 ### Abacus International (now part of [Sabre Corporation](https://sabre.com))
 
-Software Developer (August 2002 - June 2005)
+Software Developer (August 2002 to June 2005)
 
 - GDS (Global Distribution Systems) software developer.
 
@@ -79,17 +81,17 @@ Software Developer (August 2002 - June 2005)
 
 ### [Innovax Systems Pte Ltd](https://innovax.systems)
 
-Software Developer (March 1999 - May 2002)
+Software Developer (March 1999 to May 2002)
 
 - Contact Centre Solutions developer.
 
-- Developing IVR (Interactive Voice Response) solutions, PABX (Private Automatic Branch Exchange), VoIP, and CRM (Customer Relationship Management).
+- Developing IVR (Interactive Voice Response) solutions, PBX (Private automatic Branch Exchange), VoIP, and CRM (Customer Relationship Management).
 
 ## Education
 
 ### University of New South Wales
 
-Master's degree, Computing and Information Technology (2005 - 2007)
+Master's degree, Computing and Information Technology (2005 to 2007)
 
 ## Certifications
 
