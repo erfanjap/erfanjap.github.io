@@ -9,7 +9,7 @@ Features:
 - Simulate payment to bank accounts (with BSB and Account Number)
 - payID verification and display of payee details
 
-As part of the work, introduce AWS CDK, Storybook, and PlayWright to the project. 
+As part of the work, introduce AWS CDK, Storybook, and Playwright to the project. 
 
 #### Tech stack
 
@@ -27,7 +27,7 @@ Motivation:
 - Hard limit to 10,000 API keys in API Gateway
 - Each customer is assigned a unique API key, and this is not sustainable as business grows
 
-As part of the work, also introduce more TypeScript to the project including re-writing of crucial existing part of 
+As part of the work, also introduce more TypeScript to the project, including re-writing of crucial existing part of 
 the code.
 
 #### Tech stack
@@ -71,7 +71,7 @@ Payments are processed through the [PayTo](https://payto.com.au) infrastructure.
     - Vue.js
     - Storybook
 - Backend
-    - AWS AppSync with GraphQL subscriptions for real-time data app
+    - AWS AppSync with GraphQL subscriptions for a real-time data app
     - AWS Lambda, DynamoDB, SQS
 - CI/CD
     - AWS CDK
@@ -105,7 +105,7 @@ As part of the project, also automate the creation of CloudWatch custom metrics.
 
 ### User Dashboard
 
-Development of new features for user dashboard. New features includes:
+Development of new features for the user dashboard. New features include:
 - Transactions and Reports
 - User management
 - Service management
@@ -138,11 +138,11 @@ The API includes capabilities to:
 - AWS CloudFormation
 - GitLab CI/CD
 
-### Automate user migration when user log-in
+### Automate user migration when a user logs-in
 
 - Automate migration of user accounts to a new Cognito user pool.
 
-- This is achieved by utilising Lambda triggers attached to Cognito user pool.
+- This is achieved by using Lambda triggers attached to the Cognito user pool.
 
 #### Tech stack
 
