@@ -1,5 +1,41 @@
 # Erfan Jap - Skills
 
+## 2025
+
+### Design and development of Payment Simulator (aka. Test Bank) for use internally and externally
+
+Features:
+- Simulate payment to payID
+- Simulate payment to bank accounts (with BSB and Account Number)
+- payID verification and display of payee details
+
+As part of the work, introduce AWS CDK, Storybook, and PlayWright to the project. 
+
+#### Tech stack
+
+- Vue.js 3
+- Vite and Vitest
+- Pinia
+- Storybook
+- AWS CDK
+- AWS CloudFront
+- AWS S3
+
+### Dynamic assignment of API Gateway usage plan based on consumer's credentials
+
+Motivation:
+- Hard limit to 10,000 API keys in API Gateway
+- Each customer is assigned a unique API key, and this is not sustainable as business grows
+
+As part of the work, also introduce more TypeScript to the project including re-writing of crucial existing part of 
+the code.
+
+#### Tech stack
+
+- TypeScript
+- AWS API Gateway
+- AWS Lambda
+
 ## 2024
 
 ### Batch processing system for ABA file format
