@@ -1,150 +1,211 @@
-# Erfan Jap - Skills
+---
+head:
+  - - meta
+    - name: description
+      content: Erfan Jap's professional skills and technical expertise
+layout: doc
+---
 
-## 2025
+# Professional Skills & Portfolio
 
-### Design and development of Payment Simulator (aka. Test Bank) for use internally and externally
+> An overview of my professional experience and technical skills, organized by year and project.
 
-Features:
-- Simulate payment to payID
-- Simulate payment to bank accounts (with BSB and Account Number)
-- payID verification and display of payee details
+[[toc]]
 
-As part of the work, introduce AWS CDK, Storybook, and Playwright to the project. 
+## Technical Expertise
 
-#### Tech stack
+### Frontend
+- **Vue.js 3** - Component-based UI development
+- **Vite** - Next generation frontend tooling
+- **Pinia** - State management for Vue applications
+- **Storybook** - UI component development environment
 
-- Vue.js 3
-- Vite and Vitest
-- Pinia
-- Storybook
-- AWS CDK
-- AWS CloudFront
-- AWS S3
+### Backend
+- **Node.js** - JavaScript runtime
+- **TypeScript** - Typed JavaScript
+- **Spring Boot** - Java-based framework
+- **Kotlin** - Modern JVM language
 
-### Dynamic assignment of API Gateway usage plan based on consumer's credentials
+### Cloud & DevOps
+- **AWS CDK** - Infrastructure as code
+- **AWS Lambda** - Serverless computing
+- **DynamoDB** - NoSQL database service
+- **API Gateway** - RESTful API management
+- **GitLab CI/CD** - Continuous integration/deployment
 
-Motivation:
-- Hard limit to 10,000 API keys in API Gateway
-- Each customer is assigned a unique API key, and this is not sustainable as business grows
+### Testing
+- **Playwright** - End-to-end testing
+- **Vitest** - Unit testing framework
 
-As part of the work, also introduce more TypeScript to the project, including re-writing of crucial existing part of 
-the code.
+### Ways of Working
+- **TDD** - Test-driven development methodology
 
-#### Tech stack
+## Project Timeline
 
+### 2025
+
+#### Payment Simulator (Test Bank) | *Full-stack Development*
+
+**Project Overview**  
+Designed and developed a Payment Simulator for internal testing and external client use.
+
+**Key Features**
+- Simulate payments to payID
+- Simulate payments to bank accounts (BSB + Account Number)
+- payID verification with real-time payee details display
+
+**Technical Contributions**
+- Introduced AWS CDK for infrastructure as code
+- Implemented Storybook for component-driven development
+- Set up Playwright for end-to-end testing
+
+**Tech Stack**
+- *Frontend*: Vue.js 3, Vite & Vitest, Pinia, Storybook
+- *Infrastructure*: AWS CDK, AWS CloudFront, AWS S3
+
+---
+
+#### Dynamic API Gateway Usage Plan | *Backend Development*
+
+**Project Overview**  
+Implemented a dynamic assignment system for API Gateway usage plans based on consumer credentials.
+
+**Motivation**
+- Overcome the 10,000 API key limit in API Gateway
+- Create a scalable solution as the business grows
+
+**Technical Contributions**
+- Introduced TypeScript throughout the project
+- Refactored critical existing code for improved type safety and maintainability
+
+**Tech Stack**
 - TypeScript
 - AWS API Gateway
 - AWS Lambda
 
-## 2024
+### 2024
 
-### Batch processing system for ABA file format
+#### ABA File Batch Processing System | *Financial System Development*
 
-Design and development of a batch processing system for ABA files.
+**Project Overview**  
+Designed and developed a batch processing system for ABA (Australian Bankers Association) files, the universal format used by Australian banks for batch transactions.
 
-ABA (Australian Bankers Association) file format is a universal format used by banks in Australia to allow for batch transactions.
+**Key Features**
+- Near real-time payments via NPP ([New Payments Platform](https://www.rba.gov.au/payments-and-infrastructure/new-payments-platform/))
+- Fallback to [Direct Entry](https://www.auspaynet.com.au/resources/direct-entry) system when NPP is unavailable
+- Secure file transfer via SFTP
 
-The system will facilitate near-real-time payments via the NPP ([New Payments Platform](https://www.rba.gov.au/payments-and-infrastructure/new-payments-platform/)) or, if unavailable, through the [Direct Entry](https://www.auspaynet.com.au/resources/direct-entry) system.
+**Tech Stack**
+- *Batch Processing*: AWS Lambda, DynamoDB, SQS, AWS S3 and Transfer Family, AWS EventBridge for scheduling
+- *CI/CD*: AWS CloudFormation, AWS CloudWatch, GitLab CI/CD
+- *Testing*: Playwright
 
-#### Tech stack
+---
 
-- Batch processing system
-    - AWS Lambda, DynamoDB, SQS
-    - AWS S3 and Transfer Family (for SFTP/Secure File Transfer Service)
-    - AWS EventBridge for scheduling
-- CI/CD
-    - AWS CloudFormation
-    - AWS CloudWatch for monitoring
-    - GitLab CI/CD
-- Automated Testing
-    - Playwright
+#### Checkout Application | *Payment Processing*
 
-### Checkout app
+**Project Overview**  
+Developed a Checkout application enabling users to make payments for products or services through the [PayTo](https://payto.com.au) infrastructure.
 
-Developed a Checkout application enabling users to make payments for products or services.
+**Key Features**
+- Seamless payment integration
+- Real-time transaction updates
+- Secure payment processing
 
-Payments are processed through the [PayTo](https://payto.com.au) infrastructure.
+**Tech Stack**
+- *Frontend*: Vue.js, Storybook
+- *Backend*: AWS AppSync with GraphQL, AWS Lambda, DynamoDB, SQS
+- *CI/CD & Testing*: AWS CDK, AWS CloudWatch, GitLab CI/CD, Playwright
 
-#### Tech stack
+---
 
-- Frontend
-    - Vue.js
-    - Storybook
-- Backend
-    - AWS AppSync with GraphQL subscriptions for a real-time data app
-    - AWS Lambda, DynamoDB, SQS
-- CI/CD
-    - AWS CDK
-    - AWS CloudWatch for monitoring
-    - GitLab CI/CD
-- Automated Testing
-    - Playwright
+#### Vue 2 to Vue 3 Migration | *Frontend Modernization*
 
-### Migration of Vue 2 to Vue 3
+**Project Overview**  
+Led the migration of a Vue 2 project to Vue 3 in response to Vue 2's end-of-life status.
 
-Migration of Vue 2 project (As Vue 2 is EOL) to Vue 3.
-
-As part of the migration, also migrating the following:
-
-- Webpack to vite
-- Jest to vitest
+**Migration Scope**
+- Webpack to Vite
+- Jest to Vitest
 - WebdriverIO to Playwright
 
-### CloudWatch Metric, Dashboard, and Alarm
+**Key Benefits**
+- Improved performance
+- Better TypeScript integration
+- Faster build times
+- Modern testing infrastructure
 
-Automate the creation of CloudWatch dashboards and alarms to monitor application health and performance.
+---
 
-As part of the project, also automate the creation of CloudWatch custom metrics.
+#### CloudWatch Monitoring System | *DevOps*
 
-#### Tech stack
+**Project Overview**  
+Automated the creation of CloudWatch dashboards, alarms, and custom metrics to monitor application health and performance.
 
+**Key Features**
+- Real-time performance monitoring
+- Automated alerts
+- Custom metrics for business-specific KPIs
+
+**Tech Stack**
 - AWS CloudWatch
 - AWS CloudFormation
 
-## 2023
+### 2023
 
-### User Dashboard
+#### User Dashboard | *Web Application*
 
-Development of new features for the user dashboard. New features include:
+**Project Overview**  
+Developed new features for the user dashboard to enhance functionality and user experience.
+
+**Key Features**
 - Transactions and Reports
 - User management
 - Service management
 
-#### Tech stack
-
+**Tech Stack**
 - Vue.js
 - WebdriverIO
 - AWS Cognito
-- AWS Api Gateway, Lambda, DynamoDB
+- AWS API Gateway, Lambda, DynamoDB
 - GitLab CI/CD
 
-### Continuous improvement to PayTo API
+---
 
-## 2022
+#### PayTo API Improvements | *API Development*
 
-### PayTo API
+**Project Overview**  
+Continuous improvements to the PayTo API, enhancing functionality, performance, and security.
 
-Design and development of PayTo API.
+### 2022
 
-The API includes capabilities to:
-- Create PayTo agreement
-- Amend agreement
-- Cancel agreement
-- Initiate payment for PayTo agreement
+#### PayTo API | *API Development*
 
-#### Tech stack
+**Project Overview**  
+Designed and developed the PayTo API, providing a comprehensive solution for payment agreements.
 
+**Key Capabilities**
+- Create PayTo agreements
+- Amend existing agreements
+- Cancel agreements
+- Initiate payments for PayTo agreements
+
+**Tech Stack**
 - AWS API Gateway, Lambda, DynamoDB, SQS (AWS Serverless stack)
 - AWS CloudFormation
 - GitLab CI/CD
 
-### Automate user migration when a user logs-in
+---
 
-- Automate migration of user accounts to a new Cognito user pool.
+#### Cognito User Migration | *Authentication System*
 
-- This is achieved by using Lambda triggers attached to the Cognito user pool.
+**Project Overview**  
+Automated the migration of user accounts to a new Cognito user pool, triggered when users log in.
 
-#### Tech stack
+**Implementation**
+- Lambda triggers attached to Cognito user pool
+- Seamless user experience during migration
 
+**Tech Stack**
 - AWS Cognito
 - AWS Lambda
