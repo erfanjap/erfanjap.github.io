@@ -7,85 +7,84 @@ head:
 
 # Erfan Jap
 
-- Software Engineer
+- Full Stack Software Engineer
 - Sydney, New South Wales, Australia
 
 ## About me
 
 ### Current
 
-- In my current role, I am building payment solutions on New Payment Platform, which is Australia's national fast 
-payments' infrastructure.
+- **Developed payment solutions on the New Payments Platform (NPP)**, Australia's fast payments infrastructure.
 
-- The solutions include both API and web application.
+- **Engineered both API and web applications** using an AWS serverless stack (API Gateway, Lambda, DynamoDB, SQS, and CloudWatch).
 
-- In my day-to-day work, I practised Pivotal’s ways of working, which include Pair Programming and Test Driven 
-Development.
+- **Practiced Test-Driven Development (TDD) and Pair Programming** as part of a Pivotal-inspired methodology.
 
-- I received formal training at Pivotal Labs in Sydney in 2018.
+- **Utilised AWS CloudFormation and CDK** for infrastructure as code, and **GitLab CI/CD** for automated deployments.
 
-- The technology stacks that I am using daily include:
-    - AWS API Gateway, Lambda, DynamoDB, SQS, and CloudWatch (AWS Serverless stack)
-    - AWS CloudFormation and CDK
-    - VueJS
-    - GitLab CI/CD
-    - JavaScript, TypeScript, and Node.js
-    - Playwright
+- **Primary technologies include**: JavaScript, TypeScript, Node.js, Vue.js, and Playwright for end-to-end testing.
 
 ### Past
 
-- I worked with the following technologies in the past:
-    - Cloud Native Java (Kotlin) Spring Boot Application
-    - Digital Notifications (Email, SMS, Mobile Push Notification)
-    - Secure Personal Profile
-    - Vehicle Health Check (VHC)
-    - Vehicle Electronic Parts Catalogue (EPC)
-    - Global Distribution System (GDS) / Airline Reservations System
-    - Telephony.
+My experience includes developing applications with **Cloud Native Java (Kotlin) Spring Boot**. 
+I also have hands-on experience with various systems, including:
+
+- **Digital Notification Systems**: Implementing email, SMS, and mobile push notifications.
+
+- **Secure Personal Profile Platforms**: Developing and managing secure user profile services.
+
+- **Automotive Systems**: Working with Vehicle Health Check (VHC) and Vehicle Electronic Parts Catalogue (EPC) systems.
+
+- **Travel and Telephony**: Utilizing Global Distribution Systems (GDS) and Airline Reservations Systems (ARS), as well as managing Telephony and virtual Private Branch Exchange (PBX) systems.
+
+### Skills
+
+More details on my skills can be found on the [Skills](skills.html) page.
 
 ## Experience
 
 ### [Azupay](https://azupay.com.au)
 
-Senior Engineer (October 2021 to Present)
+#### Senior Engineer (October 2021 to Present)
 
-- Building PayID and PayTo payment solutions.
+- Developed end-to-end payment solutions, integrating both PayID and PayTo services.
 
 ### [Service NSW](https://service.nsw.gov.au)
 
-Principal Engineer (August 2020 to October 2021)
+#### Principal Engineer (August 2020 to October 2021)
 
-- Working on Service New South Wales's Digital Notifications portfolios.
+- **Contributed to the Service NSW Digital Notifications portfolio**, focusing on enhancing user communication and engagement.
 
-- Product development using Kotlin, Spring Boot, Spring Security, VMWare Tanzu Application Service (Pivotal Cloud Foundry), Test Driven Development, and Pair Programming.
+- **Developed products using Kotlin, Spring Boot, and Spring Security**, following best practices like **Test-Driven Development (TDD)** and **Pair Programming**. 
+Deployed applications on **VMware Tanzu Application Service**.
 
-Senior Engineer (December 2018 - August 2020)
+#### Senior Engineer (December 2018 to August 2020)
 
-- Working on Service New South Wales's Personal Profile and Digital Notifications portfolios.
+- **Contributed to the Service NSW Personal Profile and Digital Notifications portfolios**, enhancing citizen-facing services and communication channels.
 
-- Experience in Kotlin, Spring Boot, Spring Security, VMWare Tanzu Application Service (Pivotal Cloud Foundry), Test Driven Development, and Pair Programming.
+- **Leveraged expertise in Kotlin, Spring Boot, and Spring Security** to build robust, secure, and scalable applications.
+
+- **Practiced Test-Driven Development (TDD)** and **Pair Programming** to ensure code quality, maintainability, and team knowledge sharing.
+
+- **Deployed and managed applications on VMware Tanzu Application Service (formerly Pivotal Cloud Foundry)**, demonstrating proficiency in cloud-native platforms.
 
 ### [Infomedia Ltd](https://infomedia.com.au)
 
-Software Developer (January 2008 to November 2018)
+#### Software Developer (January 2008 to November 2018)
 
-- Building SaaS solutions for the automotive industry.
+- **Developed Software-as-a-Service (SaaS) solutions for the automotive industry**.
 
 ### Abacus International (now part of [Sabre Corporation](https://sabre.com))
 
-Software Developer (August 2002 to June 2005)
+#### Software Developer (August 2002 to June 2005)
 
-- GDS (Global Distribution Systems) software developer.
-
-- Building solutions for travel-related services and airline ticketing.
+- **Developed software for Global Distribution Systems (GDS)**, creating solutions for travel-related services and airline ticketing.
 
 ### [Innovax Systems Pte Ltd](https://innovax.systems)
 
-Software Developer (March 1999 to May 2002)
+#### Software Developer (March 1999 to May 2002)
 
-- Contact Centre Solutions developer.
-
-- Developing IVR (Interactive Voice Response) solutions, PBX (Private automatic Branch Exchange), VoIP, and CRM (Customer Relationship Management).
+- **Developed Contact Centre Solutions**, specializing in **Interactive Voice Response (IVR)**, **Private Branch Exchange (PBX)**, **VoIP**, and **CRM integrations**.
 
 ## Education
 
@@ -96,13 +95,16 @@ Master's degree, Computing and Information Technology (2005 to 2007)
 ## Certifications
 
 ### AWS Certified Developer – Associate (2022)
-
-- [Badge](https://www.credly.com/badges/f8223cd3-0012-44ab-83c6-d7283c5685e0)
+ 
+![Badge](/aws-certified-developer-certificate.png) 
+[Cerfiticate Badge](https://www.credly.com/badges/f8223cd3-0012-44ab-83c6-d7283c5685e0)
 
 ### AWS Certified Cloud Practitioner (2018)
 
-- [Badge](https://www.credly.com/badges/68b2c0f1-d277-405c-b36d-29631219aab5)
+![Badge](/aws-certified-cloud-practitioner.png)
+[Certificate Badge](https://www.credly.com/badges/68b2c0f1-d277-405c-b36d-29631219aab5)
 
 ### Oracle Certified Associate, Java SE 8 Programmer (2017)
 
-- [Badge](https://www.credly.com/badges/f6a859ee-1974-40fa-b03f-0065332eaa77)
+![Badge](/oracle-certified-associate.png)
+[Certificate Badge](https://www.credly.com/badges/f6a859ee-1974-40fa-b03f-0065332eaa77)
