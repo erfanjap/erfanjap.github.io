@@ -12,7 +12,7 @@ head:
 
 ## About me
 
-### Current
+### In my current role
 
 - **Developed payment solutions on the New Payments Platform (NPP)**, Australia's fast payments infrastructure.
 
@@ -24,26 +24,33 @@ head:
 
 - **Primary technologies include**: JavaScript, TypeScript, Node.js, Vue.js, and Playwright for end-to-end testing.
 
-### Past
+## Technical Background
 
-My experience includes developing applications with **Cloud Native Java (Kotlin) Spring Boot**. 
-I also have hands-on experience with various systems, including:
+My experience spans multiple technologies and domains, with particular expertise in:
 
-- **Digital Notification Systems**: Implementing email, SMS, and mobile push notifications.
+### Core Technologies
+- **Cloud Native Development**: Building applications with **Java/Kotlin** and **Spring Boot**
+- **Modern Frontend**: Creating responsive interfaces with **Vue.js** and related ecosystems
+- **AWS Cloud Services**: Designing and implementing serverless architectures
 
-- **Secure Personal Profile Platforms**: Developing and managing secure user profile services.
+### Domain Experience
 
-- **Automotive Systems**: Working with Vehicle Health Check (VHC) and Vehicle Electronic Parts Catalogue (EPC) systems.
+I've developed solutions across diverse industries and use cases:
 
-- **Travel and Telephony**: Utilizing Global Distribution Systems (GDS) and Airline Reservations Systems (ARS), as well as managing Telephony and virtual Private Branch Exchange (PBX) systems.
+| Domain                    | Experience                                                                 |
+|---------------------------|----------------------------------------------------------------------------|
+| **Financial Systems**     | Payment processing, transaction management, PayID and PayTo services       |
+| **Digital Notifications** | Email, SMS, and push notification systems with advanced templating         |
+| **Identity & Security**   | User profile platforms, authentication systems, and secure data management |
+| **Automotive Industry**   | Vehicle Health Check (VHC) systems and Electronic Parts Catalogues (EPC)   |
+| **Travel Technology**     | Global Distribution Systems (GDS) and Airline Reservation Systems (ARS)    |
+| **Communications**        | Telephony infrastructure and virtual Private Branch Exchange (PBX) systems |
 
-### Skills
+For a comprehensive breakdown of my technical skills and project experience, visit my [Skills Portfolio](skills.html).
 
-More details on my skills can be found on the [Skills](skills.html) page.
+## Professional Experience
 
-## Experience
-
-### [Azupay](https://azupay.com.au)
+### [Azupay](https://azupay.com.au) | *Real-time Payment Solutions*
 
 #### Senior Engineer (October 2021 to Present)
 
